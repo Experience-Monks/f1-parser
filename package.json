@@ -1,0 +1,30 @@
+{
+  "name": "f1-parser",
+  "version": "1.0.0",
+  "description": "This is a parser to apply animated data to a visual object such as a dom element",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.4.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "f1,parser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jam3/f1-parser.git"
+  },
+  "homepage": "https://github.com/jam3/f1-parser",
+  "bugs": {
+    "url": "https://github.com/jam3/f1-parser/issues"
+  }
+}
