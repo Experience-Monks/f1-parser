@@ -1,7 +1,7 @@
 {
   "name": "f1-parser",
   "version": "1.0.0",
-  "description": "This is a parser to apply animated data to a visual object such as a dom element",
+  "description": "Parse data from one object to another using a predefined function",
   "main": "index.js",
   "license": "MIT",
   "author": {
