@@ -19,7 +19,7 @@ test( 'parsing', function( t ) {
     parseFunc.bind( undefined, 'var2' )
   ]);
 
-  parser.teach( parseFunc.bind( undefined, 'var3' ) );
+  parser.parsers( parseFunc.bind( undefined, 'var3' ) );
 
   parser.parse( testData, writeData );
 

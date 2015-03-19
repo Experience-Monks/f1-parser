@@ -4,7 +4,7 @@ module.exports = function getParser( parsers ) {
 
   var parser = {
 
-    teach: function( parser ) {
+    parsers: function( parser ) {
 
       parserMethods.push( parser );
     },
@@ -22,7 +22,7 @@ module.exports = function getParser( parsers ) {
 
     parsers.forEach( function( parserFunc ) {
 
-      parser.teach( parserFunc );
+      parser.parsers( parserFunc );
     });
   }
 
