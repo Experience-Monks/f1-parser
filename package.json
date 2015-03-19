@@ -1,6 +1,6 @@
 {
   "name": "f1-parser",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Parse data from one object to another using a predefined function",
   "main": "index.js",
   "license": "MIT",
